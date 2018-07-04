@@ -1,7 +1,7 @@
 # StayorLeave   
-Building <br></br>an Artificial Neural Network<br></br> for<br></br> Predicting Business Problem.
+Building an Artificial Neural Network for Predicting Business Problem.
 
 ### Analysis for Business Problem
+<p>
 
-
-
+</p>
