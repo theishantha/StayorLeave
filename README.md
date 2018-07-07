@@ -8,3 +8,5 @@ What we are looking at raw data set of a bank and also all data are frictional. 
 </p>
 
 
+Sample data from 
+[@SuperDataScience](https://www.superdatascience.com/deep-learning/)
