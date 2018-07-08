@@ -53,7 +53,8 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
-
+#ANN Init
+classifier = Sequential()
 
 # Fitting classifier to the Training set
 # Create your classifier here
