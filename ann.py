@@ -56,6 +56,10 @@ from keras.layers import Dense
 #ANN Init
 classifier = Sequential()
 
+#Adding the input layers and the first hidden layer
+classifier.add(Dense())
+
+
 # Fitting classifier to the Training set
 # Create your classifier here
 
