@@ -57,7 +57,7 @@ from keras.layers import Dense
 classifier = Sequential()
 
 #Adding the input layers and the first hidden layer
-classifier.add(Dense())
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11 ))
 
 
 # Fitting classifier to the Training set
