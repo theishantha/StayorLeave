@@ -65,6 +65,13 @@ classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 #Adding the output layer
 classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
 
+#Comliling the ANN
+classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy' )
+
+
+
+
+
 
 # Fitting classifier to the Training set
 # Create your classifier here
