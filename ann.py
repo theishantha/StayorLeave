@@ -1,4 +1,4 @@
-# Artificial Neural Network
+# Artificial Neural Network for Predicting Business Problem.
 
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
