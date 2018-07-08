@@ -62,6 +62,10 @@ classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', inpu
 #Adding the second input layer
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 
+#Adding the output layer
+classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
+
+
 # Fitting classifier to the Training set
 # Create your classifier here
 
