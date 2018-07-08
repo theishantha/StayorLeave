@@ -59,6 +59,8 @@ classifier = Sequential()
 #Adding the input layers and the first hidden layer
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11 ))
 
+#Adding the second input layer
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 
 # Fitting classifier to the Training set
 # Create your classifier here
