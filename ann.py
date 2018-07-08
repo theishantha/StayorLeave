@@ -69,7 +69,7 @@ classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'] )
 
 # Fitting classifier to the Training set
-classifier.fit(X_train, y_train)
+classifier.fit(X_train, y_train, batch_size = 10, nb_epoch = 100 )
 
 
 # Create your classifier here
